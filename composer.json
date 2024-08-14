@@ -47,6 +47,12 @@
             "pestphp/pest-plugin": true
         }
     },
+    "scripts": {
+        "setup": [
+            "touch database/database.sqlite",
+            "./dogs migrate:fresh"
+        ]
+    },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "bin": ["dogs"]
