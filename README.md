@@ -3,6 +3,7 @@
 ## Installation
 ```sh
 gh repo clone ProjektGopher/no-comp-dogs-cli
+cd no-comp-dogs-cli
 composer install
 composer setup
 ```
